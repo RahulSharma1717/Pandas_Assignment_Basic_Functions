@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv("titanic.csv")
+df = pd.read_csv("retail_data.csv")
 
 # Select the categorical features
 categorical_features = df.select_dtypes(include=['object'])
